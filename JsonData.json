@@ -1,0 +1,19 @@
+{
+    "sales":[
+        {
+            "region":"NorthEst",
+            "employee":1150,
+            "amount":"1,50,000"
+        },
+        {
+            "region":"Southest",
+            "employee":150,
+            "amount":"4,50,000"
+        },
+        {
+            "region":"West",
+            "employee":650,
+            "amount":"5,70,000"
+        }
+    ]
+}

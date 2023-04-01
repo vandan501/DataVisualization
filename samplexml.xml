@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<list>
+    <bookname>Data Visualization</bookname>
+    <cat>programming</cat>
+    <price>2100</price>
+    <bookname>MicroProcessor adn interfaccing</bookname>
+    <cat>theory</cat>
+    <price>2400</price>
+</list>

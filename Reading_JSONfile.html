@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading json file</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<h2>Json object example 1</h2>
+
+</body>
+ 
+
+</html><script>
+        
+    $.getJSON("http://127.0.0.1:8887/JsonData.json",function(data){
+    $.each(data.sales,function(k,v){
+        let territory=v.region;
+        let total_employee=v.employee;
+        let total_amount=v.amount;
+    
+        document.write("The region is :"+territory+"<br>");
+        document.write("The Number of employees are :"+total_employee+"<br>");
+        document.write("The total amount is:"+total_amount+"<br><br>");
+    })
+    });            
+    </script>
